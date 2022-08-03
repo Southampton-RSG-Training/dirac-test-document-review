@@ -1,6 +1,6 @@
 ---
 title: "Survey"
-slug: Lesson Title-survey
+slug: Testing, Documenting, and Reviewing Code-survey
 layout: page
 ---
 
