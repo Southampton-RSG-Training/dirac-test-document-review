@@ -94,7 +94,7 @@ Here are some things to consider to get the most out of a code review (see blogs
 > > - Two functions have a number in the function name without explanation
 > > - Too many spaces in add_column5 function inconsistent with coding style
 > > - Some ultra-long code lines that should be properly formatted over multiple lines
-> {: .solution}
+>{: .solution}
 {: .challenge}
 
 > ## What about a Good Example?

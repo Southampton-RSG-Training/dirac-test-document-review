@@ -69,7 +69,7 @@ When followed, testing enables those within any software development effort to v
 > 
 > When considering test data, assume that the input data is a list of inflammation readings for each patient for each day of the trial, e.g. from a previous trial:
 > 
-> ```
+> ``` python
 > Patient A: 0, 0, 0, 0, 1, 8, 10, 14, 20, 14, 16, 13, 12, 9, 6, 3, 0, 0, 0, 0
 > Patient B: 0, 0, 0, 1, 4, 7, 10, 13, 15, 17, 12, 6, 4, 2, 0, 0, 0, 0, 0, 0
 > ...
@@ -99,7 +99,7 @@ When followed, testing enables those within any software development effort to v
 > > 
 > > Assumptions
 > > - Statistical functions are as named and located in `statistics_library`.
-> {: .solution}
+>{: .solution}
 {: .challenge}
 
 
