@@ -1,8 +1,8 @@
 ---
 title: "Test Strategy, Planning, and Running Tests"
 slug: dirac-test-document-review-test-strategy-planning
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 20
 questions:
 - "Does the code we develop work the way it should do?"
 - "Can we (and others) verify these assertions for themselves?"
@@ -193,14 +193,14 @@ Now we can run these tests using pytest:
 ~~~
 $ python3 -m pytest
 
-============================= test session starts ==============================
-platform linux -- Python 3.8.10, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
-rootdir: /home/user
-collected 3 items
+============================== test session starts ==============================
+platform darwin -- Python 3.10.5, pytest-7.1.2, pluggy-1.0.0
+rootdir: /Users/user/fac
+collected 3 items                                                               
 
-tests/test_factorial.py ...                                              [100%]
+tests/test_factorial.py ...                                               [100%]
 
-============================== 3 passed in 0.02s ===============================
+=============================== 3 passed in 0.01s ===============================
 ~~~
 {: .language-bash}
 
@@ -212,6 +212,25 @@ Notice the `...` after our test script:
 - If an assertion fails, or we encounter an error, we count the test as a failure (indicated as F). The error is included in the output so we can see what went wrong.
 
 If we have many tests, we essentially get a report indicating which tests succeeded or failed.
+
+We can also use the `-v` argument to display the individual results of each test:
+
+~~~
+$ python3 -m pytest -v
+
+============================== test session starts ==============================
+platform darwin -- Python 3.10.5, pytest-7.1.2, pluggy-1.0.0 -- /Users/user/fac/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/user/fac
+collected 3 items                                                               
+
+tests/test_factorial.py::test_factorial_3 PASSED                          [ 33%]
+tests/test_factorial.py::test_factorial_5 PASSED                          [ 66%]
+tests/test_factorial.py::test_factorial_10 PASSED                         [100%]
+
+=============================== 3 passed in 0.01s ===============================
+~~~
+{: .language-bash}
 
 
 {% include links.md %}

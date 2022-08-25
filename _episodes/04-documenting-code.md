@@ -1,8 +1,8 @@
 ---
 title: "Documenting Code"
 slug: dirac-test-document-review-documenting-code
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 20
 questions:
 - "How should we document and license our code?"
 objectives:
