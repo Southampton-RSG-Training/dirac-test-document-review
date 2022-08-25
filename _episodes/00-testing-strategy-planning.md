@@ -1,8 +1,8 @@
 ---
 title: "Test Strategy, Planning, and Running Tests"
 slug: dirac-test-document-review-test-strategy-planning
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 20
 questions:
 - "Does the code we develop work the way it should do?"
 - "Can we (and others) verify these assertions for themselves?"

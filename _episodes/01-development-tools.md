@@ -1,8 +1,8 @@
 ---
 title: "Development Tools"
 slug: dirac-test-document-review-development-tools
-teaching: 0
-exercises: 0
+teaching: 15
+exercises: 5
 questions:
 - "Are there any tools that can help make software development easier?"
 - "How can I locate faults in my code?"
